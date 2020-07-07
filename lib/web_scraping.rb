@@ -28,4 +28,15 @@ class WebScraping
     
     cars = cars.to_a
   end  
+
+  def self.save_file
+    cars = WebScraping.car_shopper(30000)
+    File.open("car_listings.json", "wb") do |f|
+      f << cars.to_json
+    end
+  
+    puts "Results were written to file!"
+  end
+
+
 end

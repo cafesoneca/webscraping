@@ -1,9 +1,12 @@
 ## Desafio web scraping
- Foi proposto: fazer um programa, não importa a linguagem, que acesse o site da amazon, pesquise o termo iphone e coloque em uma planilha do Excel os resultados apenas da primeira página, apenas os campos descrição e valor ($). 
+testar minhas habilidades de rubys para fazer uma aplicacao com TDD E boas praticas
+aonde a mesma acessa um site predefinido e procura carros no valor  definido
+ou em outra das 4 variveis presentes no site
+e salvar em um arquivo json.
 
 ## Setup do projeto
 ruby 2.6.1
-gem nokogiri
 
 # Executando o desafio
-ruby main.rb 
+bundle install
+ruby main.rb
