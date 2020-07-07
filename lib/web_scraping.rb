@@ -22,12 +22,10 @@ class WebScraping
       }
     end
 
-    
     cars.select! do |car|
       (car[:price] > price)
     end
     
-    pp cars = cars.to_a
-
+    cars = cars.to_a
   end  
 end
